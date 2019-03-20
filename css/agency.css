@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #f9577b;
 }
 
 .text-primary {
@@ -120,7 +120,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #f9577b;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
