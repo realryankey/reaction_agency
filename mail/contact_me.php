@@ -15,13 +15,6 @@ $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-$contact->smtp = array(
-'host' => 'smtp.sendgrid.net',
-'username' => 'reactionagency',
-'password' => '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',
-'port' => '465'
-);
 
 // Create the email and send the message
 $to = 'hello@reaction.agency'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
